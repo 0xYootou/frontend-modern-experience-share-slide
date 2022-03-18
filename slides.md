@@ -11,7 +11,15 @@ info: |
 drawings:
   persist: false
 title: Web 体验技术发展前沿
+fonts:
+  local: "LXGWWenKai-Regular"
 ---
+
+<style>
+h1,h2,h3 {
+  font-family: "LXGWWenKai-Bold" !important;
+}
+</style>
 
 # Web 体验技术发展前沿
 
@@ -33,6 +41,18 @@ title: Web 体验技术发展前沿
   </a>
 </div>
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
@@ -41,17 +61,66 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # 本文主要内容
 
-- 实时体验（Realtime experience）
-- 在线协作（Online collaboration）
+- 实时体验（Realtime experience，偏产品）
+- 在线协作（Online collaboration，偏产品）
 - 快速建站（Jamstack）
 - 浏览器计算能力
 - 浏览器系统能力
 - 移动端
 - 区块链
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
+# 从这些产品和技术中感受到了什么
+
+- 开放
+- 集成
+- 生态
+
+---
+
+# 为什么是 Web
+
+## 什么是 Web？
+
+互联网和万维网（WorldWideWeb）这两个名词经常被混用。然而，这两个名词的意思并不相同。互联网是一个全球互相连接的电脑网络系统。相较之下，万维网是由超链接和统一资源标志符连接的文件和其他资源的全球集合。万维网资源通常使用 HTTP 或 HTTPS 访问，是互联网通信协议的其中之一[20
+
+可以把 Web 简单理解成由 W3C 主导指定标准，各浏览器厂商推动发展的基于 HTML/CSS/JAVASCRIPT 等一系列标准语言实现的互利网信息交换模式。
+
+## 为什么是 Web？
+
+- 全球化组织经过严格的流程慎重决定的标准
+- 被全世界的浏览器广泛按照标准支持
+- 有完善的安全保障设计
+- 基于网络的实时交换和缓存策略设计
+- 越来越贴近操作系统的能力，可以在安全、快捷的前提下更深度使用系统硬件软件能力
+
 # 一 实时体验
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+  background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -74,6 +143,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 部署前端应用的云服务，也支持简单的服务端、存储等。
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # <svg role="img" aria-label="Vercel Inc." height="40" viewBox="0 0 283 64" fill="var(--geist-foreground)"><path d="M37 0l37 64H0L37 0zM159.6 34c0-10.3-7.6-17.5-18.5-17.5s-18.5 7.2-18.5 17.5c0 10.1 8.2 17.5 19.5 17.5 6.2 0 11.8-2.3 15.4-6.5l-6.8-3.9c-2.1 2.1-5.2 3.4-8.6 3.4-5 0-9.3-2.7-10.8-6.8l-.3-.7h28.3c.2-1 .3-2 .3-3zm-28.7-3l.2-.6c1.3-4.3 5.1-6.9 9.9-6.9 4.9 0 8.6 2.6 9.9 6.9l.2.6h-20.2zM267.3 34c0-10.3-7.6-17.5-18.5-17.5s-18.5 7.2-18.5 17.5c0 10.1 8.2 17.5 19.5 17.5 6.2 0 11.8-2.3 15.4-6.5l-6.8-3.9c-2.1 2.1-5.2 3.4-8.6 3.4-5 0-9.3-2.7-10.8-6.8l-.3-.7H267c.2-1 .3-2 .3-3zm-28.7-3l.2-.6c1.3-4.3 5.1-6.9 9.9-6.9 4.9 0 8.6 2.6 9.9 6.9l.2.6h-20.2zM219.3 28.3l6.8-3.9c-3.2-5-8.9-7.8-15.8-7.8-10.9 0-18.5 7.2-18.5 17.5s7.6 17.5 18.5 17.5c6.9 0 12.6-2.8 15.8-7.8l-6.8-3.9c-1.8 3-5 4.7-9 4.7-6.3 0-10.5-4.2-10.5-10.5s4.2-10.5 10.5-10.5c3.9 0 7.2 1.7 9 4.7zM282.3 5.6h-8v45h8v-45zM128.5 5.6h-9.2L101.7 36 84.1 5.6h-9.3L101.7 52l26.8-46.4zM185.1 25.8c.9 0 1.8.1 2.7.3v-8.5c-6.8.2-13.2 4-13.2 8.7v-8.7h-8v33h8V36.3c0-6.2 4.3-10.5 10.5-10.5z"></path></svg>
@@ -88,6 +170,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - 部署过程极简，连接 Github 账号、导入 Github 项目、Deploy、Preview，最小步骤完成。
 - 在 vercel 里部署应用的各种过程都不需要刷新页面，所有状态都会 <span style="color:#ff0000;">自动推进</span> 和 <span style="color:#ff0000;">实时生效</span>，触发往往只需一个点击
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # <svg role="img" aria-label="Vercel Inc." height="40" viewBox="0 0 283 64" fill="var(--geist-foreground)"><path d="M37 0l37 64H0L37 0zM159.6 34c0-10.3-7.6-17.5-18.5-17.5s-18.5 7.2-18.5 17.5c0 10.1 8.2 17.5 19.5 17.5 6.2 0 11.8-2.3 15.4-6.5l-6.8-3.9c-2.1 2.1-5.2 3.4-8.6 3.4-5 0-9.3-2.7-10.8-6.8l-.3-.7h28.3c.2-1 .3-2 .3-3zm-28.7-3l.2-.6c1.3-4.3 5.1-6.9 9.9-6.9 4.9 0 8.6 2.6 9.9 6.9l.2.6h-20.2zM267.3 34c0-10.3-7.6-17.5-18.5-17.5s-18.5 7.2-18.5 17.5c0 10.1 8.2 17.5 19.5 17.5 6.2 0 11.8-2.3 15.4-6.5l-6.8-3.9c-2.1 2.1-5.2 3.4-8.6 3.4-5 0-9.3-2.7-10.8-6.8l-.3-.7H267c.2-1 .3-2 .3-3zm-28.7-3l.2-.6c1.3-4.3 5.1-6.9 9.9-6.9 4.9 0 8.6 2.6 9.9 6.9l.2.6h-20.2zM219.3 28.3l6.8-3.9c-3.2-5-8.9-7.8-15.8-7.8-10.9 0-18.5 7.2-18.5 17.5s7.6 17.5 18.5 17.5c6.9 0 12.6-2.8 15.8-7.8l-6.8-3.9c-1.8 3-5 4.7-9 4.7-6.3 0-10.5-4.2-10.5-10.5s4.2-10.5 10.5-10.5c3.9 0 7.2 1.7 9 4.7zM282.3 5.6h-8v45h8v-45zM128.5 5.6h-9.2L101.7 36 84.1 5.6h-9.3L101.7 52l26.8-46.4zM185.1 25.8c.9 0 1.8.1 2.7.3v-8.5c-6.8.2-13.2 4-13.2 8.7v-8.7h-8v33h8V36.3c0-6.2 4.3-10.5 10.5-10.5z"></path></svg>
@@ -95,6 +190,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <br/>
 
  <video src="/1.mp4" controls style="height:70%;border-radius:5px;" autoplay />
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -116,9 +224,35 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - https://hyper.is/
 - a beautiful and extensible experience for command-line interface
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # 二 在线协作
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -132,6 +266,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 [https://github.com/yomorun/react-cursor-chat](https://github.com/yomorun/react-cursor-chat)
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 ## 2. figma comments
@@ -140,6 +287,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <img src="/4.gif" style="height:60%">
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 ## 3. figma voice
@@ -148,6 +308,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <img src="/5.png" style="width:60%">
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 ## 3. figma voice
@@ -155,6 +328,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <br/>
 
 <img src="/5.png" style="width:60%">
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -163,6 +349,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 <br/>
 
 <img src="/6.png" style="height:60%">
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -173,6 +372,19 @@ The last comment block of each slide will be treated as slide notes. It will be 
 cursor chat & live chat & video chat & screen share & comments & collaborative editing
 
 <video src="/7.mp4" controls style="height:70%;border-radius:5px;" autoplay />
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -196,6 +408,19 @@ cursor chat & live chat & video chat & screen share & comments & collaborative e
 
 这么大的市值中，在线办公、在线会议的价值占比不会低，而不是单纯的设计工具或者白板工具。
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 ## 6. Next.js live (vercel)
@@ -207,6 +432,19 @@ https://vercel.com/live
 Join/Draw/Chat/Code，这里不难理解为什么 vercel 要做 Next.js live，借鉴的是以上几个工具的颠覆思路
 
 <img src="/8.png" style="width:58%">
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -222,9 +460,35 @@ Replicache makes it easy to add realtime collaboration, lag-free UI, and offline
 
 <img src="/10.png" style="width:50%">
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # 三 快速建站
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -250,6 +514,19 @@ CDN 网络分发 / 原子化部署 / 缓存自动失效 / 版本管理 / 自动�
 
 Develop / Version Control / Automated build( assets. pre render. deploy.) / Update CDN.
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # DEVELOPMENT
@@ -274,6 +551,19 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 ### Site Builders
 
 - 低代码搭建工具，如 Stackbit / Builder.io / CloudCannon
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -303,6 +593,19 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 - Algolia / fuse.js / Lunr.js
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # DEPLOY
@@ -314,6 +617,19 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 - Digital Ocean
 - Azure Static Web Apps
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # 简单总结
@@ -322,6 +638,23 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 - 在国外是一个很大的市场，在国内基本不存在这些场景，国内同样的场景是给每个小程序平台写小程序，各平台有自己的部署、函数、存储。。
 - 国外社区这种整体架构分解、细分领域发力、灵活重组、生态上互相支持，共赢且推动社区向同一个方向发展的做法值得深思。
 - 很多公司和产品以 Jamstack 为核心理念推动和宣导。
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
+---
+
+# 举例
 
 ---
 
@@ -332,6 +665,19 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 - WebAssembly
 - WebCodecs
 - WebGPU
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -350,6 +696,19 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 - Apple 直到 2020 年才支持 WebGL 2.0。
 - 几乎现在所有的操作系统都不再把 OpenGL 作为首要支持。
 - WebGL 至今不可以做并行计算。
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -371,6 +730,19 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 [WebCodecs 对音视频进行编码解码](https://juejin.cn/post/6885482349098860558)
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # WebGPU
@@ -378,6 +750,19 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 此 demo 只能在 Chrome Canary 中开启 WebGPU 后使用
 
 <iframe src="https://playground.babylonjs.com/?webgpu#YX6IB8#36" style="width:100%;height:40vh;"/>
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -395,9 +780,35 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 [从 WebGL 到 WebGPU，网页图形的全新时代](https://mp.weixin.qq.com/s/4LfaNHP77s9n9SghucYoaA)
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # 五 浏览器系统能力
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -414,6 +825,19 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 - 内容。Encoding API / Intersection Observer API(内容探测) /
 - 性能探测。Performance API（延时探测） / Navigation Timing（页面跳转性能探测） / Long Tasks API（高损耗探测）/ Resource Timing（资源加载探测）
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # 注意点
@@ -424,11 +848,37 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 - 部分功能需要用户确认，通过 permissions api 管理。
 - 以上提到的大部分功能都在 90 之前版本可用，极少数是最新的规范
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # Google Meeting
 
 <video src="/11.mp4" controls style="height:70%;border-radius:5px;" autoplay />
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -447,12 +897,38 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 - iPad Swift Playground 可以直接编译成 app
 - Live Text / SharePlay / RealityKit / ARKit /
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # 六 区块链
 
 - web3.js ethers.js web3modal.js ...
 - 不展开说了
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
@@ -461,3 +937,16 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 欢迎 PR 补充内容
 
 [GitHub 链接](https://github.com/yu-tou/web-front-end-technology-forward-share-slide)
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
