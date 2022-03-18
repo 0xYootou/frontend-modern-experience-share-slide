@@ -18,10 +18,10 @@ fonts:
 <style>
 
 *{
-  text-shadow: 1px 1px 0px #ddd;
+  text-shadow: 1px 1px 0px #ddd;font-family: "LXGWWenKai-Bold" !important;
 }
 h1,h2,h3,h4,h5 {
-  font-family: "LXGWWenKai-Bold" !important;
+  
   text-shadow:none;
 
 }
@@ -90,11 +90,12 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# 从这些产品和技术中感受到了什么
+# 核心感受
 
-- 开放
-- 集成
-- 生态
+- 纯粹，简单/易用/单一功能做到最优/逻辑简单清晰
+- 开放，保持开放/使用开放的技术/为开放的生态贡献力量
+- 集成，提供插件能力/集成至其他产品/同时让其他产品集成进来
+- 生态，合作打造生态理念/共同推进/互相成就
 
 <style>
 .slidev-layout {
@@ -643,6 +644,8 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 # DEPLOY
 
+<br/>
+
 - Netlify，2020 年 5300 万 C 轮
 - Vercel，2021 年 1.5 亿美金 D 轮，估值 25 亿美金
 - Github Pages
@@ -667,6 +670,8 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 # 简单总结
 
+<br/>
+
 - 利用一系列工具组合，快速构建和部署自己的网站。
 - 在国外是一个很大的市场，在国内基本不存在这些场景，国内同样的场景是给每个小程序平台写小程序，各平台有自己的部署、函数、存储。。
 - 国外社区这种整体架构分解、细分领域发力、灵活重组、生态上互相支持，共赢且推动社区向同一个方向发展的做法值得深思。
@@ -687,7 +692,35 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 ---
 
-# 举例
+# 示例
+
+<br/>
+
+现在，开发一个轻量级的前端应用，可以存取数据，运行简单的服务端，存储数据，cdn 访问等。
+
+- 界面搭建，可以使用 hugo/Gatsby/vuepress 等无代码框架
+- 也可以使用 Nextjs 等开发界面。
+- cdn 托管：将应用部署到 vercel，直接分发到全球的端点网络。
+- 逻辑开发：使用 Nextjs 开发轻量级的 serverless 函数，部署到 vercel 之后，无缝集成 vercel serverless。
+- 部署：从 github 开始，无缝导入 vercel/netlify/hehuko 等平台，自动集成打包分发。
+- 存储：使用 prisma data proxy 为 serverless 提供数据库服务（可解决连接数问题）
+- 数据管理：使用 prisma studio web ui 直接管理或者使用 prisma platform 管理
+- 数据访问：使用 prisma orm 在代码中快速访问数据
+- 数据库服务：使用 heruko 云原生 postgres 服务，或者使用其他云原生 数据库服务，搭配 prisma 使用。
+- 接口：使用 graphql 配合 prisma 和 nextjs，快速输出标准接口服务
+
+<style>
+.slidev-layout {
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
 
 ---
 
