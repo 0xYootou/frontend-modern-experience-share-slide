@@ -90,6 +90,18 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - 集成
 - 生态
 
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+  background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
+}
+
+  </style>
+
 ---
 
 # 为什么是 Web
@@ -107,6 +119,21 @@ The last comment block of each slide will be treated as slide notes. It will be 
 - 有完善的安全保障设计
 - 基于网络的实时交换和缓存策略设计
 - 越来越贴近操作系统的能力，可以在安全、快捷的前提下更深度使用系统硬件软件能力
+
+<style>
+.slidev-layout {
+  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
+    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
+---
 
 # 一 实时体验
 
