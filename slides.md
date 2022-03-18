@@ -32,9 +32,11 @@ h1,h2,h3,h4,h5 {
 本文内容具有一定局限性，不代表社区真实现状，仅做参考！
 
 <div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-     小芋头君@yootou.com
-  </span>
+  <div>
+     小芋头君 
+  </div>
+  <div>@yootou.com </div>
+  <div>@yootou.eth  @hacksdao.eth @yootou.bit</div>
 </div>
 
 <div class="abs-br m-6 flex gap-2">
