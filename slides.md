@@ -16,8 +16,14 @@ fonts:
 ---
 
 <style>
-h1,h2,h3,h4,h5,* {
+
+*{
+  text-shadow: 1px 1px 0px #ddd;
+}
+h1,h2,h3,h4,h5 {
   font-family: "LXGWWenKai-Bold" !important;
+  text-shadow:none;
+
 }
 </style>
 
@@ -43,9 +49,9 @@ h1,h2,h3,h4,h5,* {
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -71,9 +77,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -92,9 +98,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
   background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
@@ -122,9 +128,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -139,9 +145,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
   background-position: right -120% top -100%, left -500px top -400px, left 50% bottom -40%, right -50% bottom -30%, left -60% bottom -30%;
@@ -172,9 +178,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -199,9 +205,9 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -220,9 +226,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -253,9 +259,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -270,9 +276,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -295,9 +301,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -316,9 +322,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -337,9 +343,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -358,9 +364,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -379,9 +385,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -402,9 +408,9 @@ cursor chat & live chat & video chat & screen share & comments & collaborative e
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -437,9 +443,9 @@ cursor chat & live chat & video chat & screen share & comments & collaborative e
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -462,9 +468,9 @@ Join/Draw/Chat/Code，这里不难理解为什么 vercel 要做 Next.js live，�
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -489,9 +495,9 @@ Replicache makes it easy to add realtime collaboration, lag-free UI, and offline
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -506,9 +512,9 @@ Replicache makes it easy to add realtime collaboration, lag-free UI, and offline
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -543,9 +549,9 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -581,9 +587,9 @@ Develop / Version Control / Automated build( assets. pre render. deploy.) / Upda
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -622,9 +628,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -646,9 +652,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -668,9 +674,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -695,9 +701,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -726,9 +732,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -759,9 +765,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -780,9 +786,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -809,9 +815,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -826,9 +832,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -854,9 +860,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -877,9 +883,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -896,9 +902,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -926,9 +932,9 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -939,16 +945,20 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 ---
 
-# 六 区块链
+# 六 Web3
 
-- web3.js ethers.js web3modal.js ...
-- 不展开说了
+- web1 浏览，web2 发布，web3 拥有。
+- web3.js ethers.js 智能合约 hardhat typechain web3modal 等等
+- 开发体验类似于 serverless，可以把区块链理解成一个分布式的虚拟机平台和状态存储平台。
+- 依托与智能合约实现数据逻辑，比较大的挑战是单向状态机和普通应用间的差异，业务逻辑的架构设计完全不同。
+- 对新人来说，晦涩的概念比较多，很多金融的概念，但是实际上技术和开发体验是比较简单的。
+- 感兴趣的同学可以加我 ,或者直接加 telegram: https://t.me/+versCrAb2lM1ZTI1
 
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
@@ -965,15 +975,17 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 [GitHub 链接](https://github.com/yu-tou/web-front-end-technology-forward-share-slide)
 
+<img src="/weixin.JPG" style="width:300px"/>
+
 <style>
 .slidev-layout {
-  background: url(https://pitch-assets.imgix.net/2c232390-e11e-449c-a50c-52680fdb21b1?pitch-bytes=390&pitch-content-type=image%2Fsvg%2Bxml&w=2006&h=1993&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/a32b303f-59a9-45c3-8be6-ee28b82a6a20?pitch-bytes=834&pitch-content-type=image%2Fsvg%2Bxml&w=1979&h=2020&fit=max&auto=format&q=100),
-    url(https://pitch-assets.imgix.net/751c3cc7-b3c5-4d83-875a-0eb9b329d3ff?pitch-bytes=391&pitch-content-type=image%2Fsvg%2Bxml&w=2121&h=1885&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/e3f4a802-7a65-455a-b1e3-395c7243f356?pitch-bytes=835&pitch-content-type=image%2Fsvg%2Bxml&w=2088&h=1914&fit=max&auto=format&q=100),url(https://pitch-assets.imgix.net/f5840fcd-107b-4ff7-a3a3-225de450087b?pitch-bytes=1196&pitch-content-type=image%2Fsvg%2Bxml&w=1831&h=2184&fit=max&auto=format&q=100);
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
 
-  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
 }
 
   </style>
