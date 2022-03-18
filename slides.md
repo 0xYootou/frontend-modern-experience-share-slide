@@ -16,7 +16,7 @@ fonts:
 ---
 
 <style>
-h1,h2,h3 {
+h1,h2,h3,h4,h5,* {
   font-family: "LXGWWenKai-Bold" !important;
 }
 </style>
