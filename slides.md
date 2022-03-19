@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5 {
      小芋头君 
   </div>
   <div>@yootou.com </div>
-  <div>@yootou.eth  @hacksdao.eth @yootou.bit</div>
+  <div>@yootou.eth @hacksdao.eth</div>
   
 </div>
 
@@ -414,6 +414,27 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 cursor chat & live chat & video chat & screen share & comments & collaborative editing
 
 <video src="/7.mp4" controls style="height:70%;border-radius:5px;" autoplay />
+
+<style>
+.slidev-layout {
+  background: url(/bg-1.svg),
+    url(/bg-2.svg),
+    url(/bg-3.svg),url(/bg-4.svg),url(/bg-5.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 70% 70%, 120% 120%, 50% 50%, 50% 50%, 50% 50%;
+
+  background-position: left -120% top -50%, right -450px top -350px, right -30% bottom -20%, left 50% bottom -40%, left -60% bottom -30%;
+}
+
+  </style>
+
+---
+
+## 5. 插件化
+
+<br/>
+
+<img src="/200.png"   style="height:70%;border-radius:5px;"  />
 
 <style>
 .slidev-layout {
