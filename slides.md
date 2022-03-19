@@ -37,6 +37,7 @@ h1,h2,h3,h4,h5 {
   </div>
   <div>@yootou.com </div>
   <div>@yootou.eth  @hacksdao.eth @yootou.bit</div>
+  <div>@yootou.eth  @hacksdao.eth @yootou.bit</div>
 </div>
 
 <div class="abs-br m-6 flex gap-2">
@@ -1010,7 +1011,7 @@ background-position: right -120% top -100%, left -500px top -400px, left 50% bot
 
 [GitHub 链接](https://github.com/yu-tou/web-front-end-technology-forward-share-slide)
 
-<img src="/weixin.JPG" style="width:300px"/>
+<img src="/weixin.jpeg" style="width:300px"/>
 
 <style>
 .slidev-layout {
