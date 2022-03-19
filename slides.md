@@ -31,13 +31,18 @@ h1,h2,h3,h4,h5 {
 
 本文内容具有一定局限性，不代表社区真实现状，仅做参考！
 
+今天的分享有两个目的
+
+- 大家可以作为团队技术方向选题的参考
+- 可以分享给公司的产品设计老板等促进产品共创 <div>在线地址：<a href="https://frontshare.vercel.app">frontshare.vercel.app</a></div>
+
 <div class="pt-12">
   <div>
      小芋头君 
   </div>
   <div>@yootou.com </div>
   <div>@yootou.eth  @hacksdao.eth @yootou.bit</div>
-  <div>@yootou.eth  @hacksdao.eth @yootou.bit</div>
+  
 </div>
 
 <div class="abs-br m-6 flex gap-2">
